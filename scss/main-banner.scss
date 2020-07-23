@@ -1,0 +1,75 @@
+.main-banner {
+   background-image: url(https://demo.kallyas.net/conference2/wp-content/uploads/sites/115/2019/12/speaker-gary-vee-2c.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   background-attachment: fixed;
+   height: 100vh;
+   width: 100%;
+   position: relative;
+
+   &__header {
+      text-align: center;
+      color: #53e8cd;
+      font-size: 60px;
+      line-height: 62px;
+      font-family: "Bebas Neue", Helvetica, Arial, sans-serif;
+      padding-top: 150px;
+      margin-bottom: 0;
+   }
+   &__date {
+      color: white;
+      text-align: center;
+      margin-top: 0;
+      font-size: 18px;
+      margin-bottom: 0;
+      font-size: 18px;
+      line-height: 36px;
+      font-weight: bold;
+   }
+   &__description {
+      font-family: "Bebas Neue", Helvetica, Arial, sans-serif;
+      font-size: 40px;
+      line-height: 42px;
+      text-align: center;
+      color: white;
+      margin-top: 0;
+      margin-bottom: 0;
+   }
+   &__up {
+      position: absolute;
+   }
+   &__under-title {
+      margin-top: -10px;
+      margin-bottom: 20px;
+      color: white;
+      text-align: center;
+      font-size: 20px;
+      padding: 0 50px;
+      line-height: 36px;
+      font-family: "Roboto", Helvetica, Arial, sans-serif;
+      font-weight: 200;
+   }
+   &__las-vegas {
+      width: 280px;
+      line-height: 1;
+      font-size: 42px;
+      transition: color 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+      max-width: 100%;
+      display: none;
+   }
+}
+.get-tickets {
+   font-family: "Montserrat", Helvetica, Arial, sans-serif;
+   background-color: #1fe8cd;
+  margin: 0 auto;
+   padding-top: 18px;
+   padding-right: 52px;
+   padding-bottom: 18px;
+   padding-left: 52px;
+   border: none;
+   color: white;
+   font-size: 18px;
+   font-weight: bold;
+
+}

@@ -1,0 +1,22 @@
+@import "~normalize.css";
+@import "main-banner.scss";
+@import "speakers.scss";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+html {
+   box-sizing: border-box;
+}
+body {
+   font-family: "Open Sans", Helvetica, Arial, sans-serif;
+   font-size: 13px;
+   line-height: 1.7;
+   color: #535353;
+   margin: 0;
+}
+*,
+*:before,
+*:after {
+   box-sizing: inherit;
+}
