@@ -7,6 +7,18 @@
    height: 100vh;
    width: 100%;
    position: relative;
+   color: white;
+   z-index: 0;
+   &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      background: rgba(20, 6, 53, 0.625);
+      z-index: -1;
+   }
 
    &__header {
       text-align: center;
@@ -16,6 +28,7 @@
       font-family: "Bebas Neue", Helvetica, Arial, sans-serif;
       padding-top: 150px;
       margin-bottom: 0;
+      text-transform: uppercase;
    }
    &__date {
       color: white;
@@ -59,17 +72,27 @@
       display: none;
    }
 }
-.get-tickets {
-   font-family: "Montserrat", Helvetica, Arial, sans-serif;
-   background-color: #1fe8cd;
-  margin: 0 auto;
-   padding-top: 18px;
-   padding-right: 52px;
-   padding-bottom: 18px;
-   padding-left: 52px;
-   border: none;
-   color: white;
-   font-size: 18px;
-   font-weight: bold;
+.flex-ticket {
+   display: flex;
+   justify-content: center;
+   align-items: center;
 
+   &__get-tickets {
+      background-color: #1fe8cd;
+      padding-top: 18px;
+      padding-right: 52px;
+      padding-bottom: 18px;
+      padding-left: 52px;
+      border: none;
+      color: white;
+      font-size: 14px;
+      line-height: 14px;
+      text-transform: uppercase;
+      font-weight: 700;
+      cursor: pointer;
+
+      &:hover {
+         background-color: #16b8a2;
+      }
+   }
 }

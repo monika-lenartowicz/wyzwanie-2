@@ -1,0 +1,44 @@
+.counter {
+   background: #1fe8cd;
+   width: 92vw;
+   height: 55vh;
+   margin: -80px auto 30px;
+   position: relative;
+}
+.counter-header {
+   font-size: 16px;
+   padding-top: 40px;
+   font-weight: 700;
+   text-align: center;
+   color: white;
+   text-transform: uppercase;
+   margin-bottom: 0;
+}
+.counter-list {
+   list-style: none;
+   text-transform: uppercase;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-columns: 1fr 1fr;
+   margin-top: 0;
+   padding: 40px;
+   &__item {
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 0;
+   }
+}
+
+.counter-list__item-1 {
+   font-size: 48px;
+   font-family: "Roboto", Helvetica, Arial, sans-serif;
+   font-weight: 500;
+   color: #ffffff;
+   justify-content: center;
+}
+.counter-list__item-2 {
+   font-size: 14px;
+
+   font-weight: 500;
+   color: #ffffff;
+}
