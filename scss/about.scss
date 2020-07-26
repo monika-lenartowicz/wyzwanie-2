@@ -1,0 +1,52 @@
+.about-event {
+   margin-top: 40;
+   margin-right: auto;
+   margin-left: auto;
+   padding-left: 15px;
+   padding-right: 15px;
+   &__description {
+      color: #05003e;
+      font-family: "Open Sans", Helvetica, Arial, sans-serif;
+      font-size: 18px;
+      line-height: 36px;
+      font-weight: 200;
+   }
+
+   &__header {
+      color: #05003e;
+      font-size: 24px;
+      line-height: 26px;
+      font-weight: 700;
+      font-family: "Open Sans", Helvetica, Arial, sans-serif;
+      text-transform: uppercase;
+      margin-top: -125px;
+      margin-bottom: 60px;
+   }
+   &__header-big {
+      color: rgba(5, 0, 62, 0.05);
+      font-size: 80px;
+      line-height: 82px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-left: -60px;
+   }
+   &__button {
+      background-color: #1fe8cd;
+      padding-top: 18px;
+      padding-right: 52px;
+      padding-bottom: 18px;
+      padding-left: 52px;
+      border: none;
+      color: white;
+      text-transform: uppercase;
+      cursor: pointer;
+      font-family: "Open Sans", Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      line-height: 14px;
+      font-weight: 500;
+
+      &:hover {
+         background-color: #16b8a2;
+      }
+   }
+}
