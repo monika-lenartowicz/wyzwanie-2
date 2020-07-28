@@ -10,6 +10,7 @@
       font-size: 18px;
       line-height: 36px;
       font-weight: 200;
+      margin-bottom: 40px;
    }
 
    &__header {
@@ -44,9 +45,54 @@
       font-size: 12px;
       line-height: 14px;
       font-weight: 500;
+      
 
       &:hover {
          background-color: #16b8a2;
       }
+   }
+   .speakers-image {
+      background-image: url("https://demo.kallyas.net/conference2/wp-content/uploads/sites/115/2019/08/image-2.jpg");
+      width: 95%;
+      min-height: 415px;
+      margin: 60px auto;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      background-attachment: scroll;
+      position: relative;
+      z-index: 0;
+      &::after {
+         content: "";
+         position: absolute;
+         top: 0;
+         right: 0;
+         left: 0;
+         bottom: 0;
+         background: rgba(20, 6, 53, 0.625);
+         z-index: -1;
+      }
+   }
+}
+.speakers-image {
+   background-image: url("https://demo.kallyas.net/conference2/wp-content/uploads/sites/115/2019/08/image-2.jpg");
+   width: 90%;
+   min-height: 415px;
+   margin: 60px auto;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   background-attachment: scroll;
+   position: relative;
+   z-index: 0;
+   &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      background: rgba(20, 6, 53, 0.625);
+      z-index: -1;
    }
 }
